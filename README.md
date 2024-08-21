@@ -12,11 +12,12 @@ There are three input parameters that are needed to describe the decay.
 
     (1) (Gamma_yp): the decay rate of the Y particle. This should be provided in units of 1/Mpc. 
 
-    (2) (maxyr_yp): the maximum value of rho_Y/rho_rad, where rho_Y is the energy density of the Y particle
-        and rho_rad is the total radiation energy density. 
+    (2) (maxyr_yp): the maximum value of rho_Y/rho_rad, where rho_Y is the energy density of the 
+        Y particle and rho_rad is the total radiation energy density. 
     
-    (3) (f_yp): the fraction of the decaying particle’s energy that is transferred to photons. If the Y particle
-        decays completely into photons, f_yp = 1. If the Y particle only decays into massless neutrinos, f_yp = 0.
+    (3) (f_yp): the fraction of the decaying particle’s energy that is transferred to photons. 
+        If the Y particle decays completely into photons, f_yp = 1. If the Y particle only 
+        decays into massless neutrinos, f_yp = 0.
 
 For details regarding the model and assumptions, please see 
 Sobotka et al. (2023) [arXiv:2207.14308]: https://arxiv.org/abs/2207.14308 
