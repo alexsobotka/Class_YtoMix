@@ -1,4 +1,30 @@
-CLASS: Cosmic Linear Anisotropy Solving System  {#mainpage}
+Class_YtoMix
+==============================================
+Author: Alex Sobotka
+
+This is a modified version of the CLASS boltzmann solver created by Julien Lesgourgues and Thomas Tram. 
+Class_YtoMix calculates the effects of a hidden sector Y particle that decays into a mixture of photons 
+and massless neutrinos (i.e. dark radiation). The Y particle is assumed to be non-relativistic and the 
+massless neutrinos are assumed to be relativistic and 
+non-interacting. 
+
+There are three input parameters that are needed to describe the decay. 
+(1) the decay rate of the Y particle (Gamma_yp). Gamma_yp should be provided in units of 1/Mpc. 
+(2) the maximum value of rho_Y/rho_rad (maxyr_yp), where rho_Y is the energy density of the Y particle
+    and rho_rad is the total radiation energy density. 
+(3) the fraction of the decaying particle’s energy that is transferred to photons (f_yp). If the Y particle
+    decays completely into photons, f_yp = 1. If the Y particle only decays into massless neutrinos, f_yp = 0.
+
+For details regarding the model and assumptions, please see 
+Sobotka et al. (2023) [arXiv:2312.13235]: https://arxiv.org/abs/2207.14308 
+
+
+See the instructions below on how to install and use CLASS.
+
+
+
+
+CLASS: Cosmic Linear Anisotropy Solving System
 ==============================================
 
 Authors: Julien Lesgourgues, Thomas Tram, Nils Schoeneberg
